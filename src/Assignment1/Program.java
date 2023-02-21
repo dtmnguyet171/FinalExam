@@ -118,9 +118,9 @@ public class Program {
         groupAccount3.joinDate = new Date();
 
         System.out.println("In ra Account Id của Group:");
-        System.out.println(groupAccount1.groupId + ": " + groupAccount1.accountId);
-        System.out.println(groupAccount2.groupId + ": " + groupAccount2.accountId);
-        System.out.println(groupAccount3.groupId + ": " + groupAccount3.accountId);
+        System.out.println(groupAccount1.groupId.groupId + ": " + groupAccount1.accountId.accountId);
+        System.out.println(groupAccount2.groupId.groupId + ": " + groupAccount2.accountId.accountId);
+        System.out.println(groupAccount3.groupId.groupId + ": " + groupAccount3.accountId.accountId);
         System.out.println("\n");
 
         // -------------------Khoi tao gia tri cho TypeQuestion-------------
@@ -264,9 +264,9 @@ public class Program {
         examQuestion3.questionId = question3;
 
         System.out.println("In ra QuestionId của Exam:");
-        System.out.println(examQuestion1.examId + ": " + examQuestion1.questionId);
-        System.out.println(examQuestion2.examId + ": " + examQuestion2.questionId);
-        System.out.println(examQuestion3.examId + ": " + examQuestion3.questionId);
+        System.out.println(examQuestion1.examId.examId + ": " + examQuestion1.questionId.questionId);
+        System.out.println(examQuestion2.examId.examId + ": " + examQuestion2.questionId.questionId);
+        System.out.println(examQuestion3.examId.examId + ": " + examQuestion3.questionId.questionId);
         System.out.println("\n");
     }
 }
