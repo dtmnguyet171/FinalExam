@@ -1,6 +1,10 @@
 package Lesson2.Assignment;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
@@ -525,6 +529,7 @@ public class Program {
         } while (num4 < arrAccount.length);
         System.out.println("\n");
         // Làm lại Q14
+        System.out.println("Làm lại Question 14");
         int num5 = 0;
         do {
             System.out.println("Thông tin của Account thứ " + (num5+1) + " là: ");
@@ -537,11 +542,33 @@ public class Program {
         System.out.println("\n");
 
         // Làm lại Q15
+        System.out.println("Làm lại Question 15");
         int num6 = 0;
         do {
             num6++;
             if(num6%2 == 0) {continue;}
             System.out.println(num6-1);
         } while (num6<=20);
+// Exercise 3
+    // ------------------------------------- Question 1 ------------------------------
+        System.out.println("Question 1");
+        Locale locale = new Locale("v1", "VN");
+        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
+        String stringDate = dateFormat.format(exam1.createDate);
+        System.out.println(stringDate);
+        System.out.println("\n");
+
+    // ------------------------------------ Question 2 ----------------------------------
+        System.out.println("Question 2");
+        DateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String stringDate1 = dateFormat1.format(exam1.createDate);
+        System.out.println(stringDate1);
+        System.out.println("\n");
+
+// ---------------
+        Scanner scanner = new Scanner(System.in);
+        Account account4 = new Account();
+        System.out.println("Mời bạn nhập vào tên");
+
     }
 }
