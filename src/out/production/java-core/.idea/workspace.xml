@@ -39,23 +39,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lesson1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Railway66\java-core\src\Lesson1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson2.TestingSystem1" />
+      <recent name="TestingSystem2" />
       <recent name="Lesson2.Assignment2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment2">
-    <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Assignment2.Assignment2" />
+  <component name="RunManager" selected="Application.DemoDataTypeCasting">
+    <configuration name="DemoDataTypeCasting" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.Demo.DemoDataTypeCasting" />
       <module name="java-core" />
       <extension name="coverage">
         <pattern>
@@ -119,22 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.DemoDataTypeCasting" />
+      <item itemvalue="Application.DemoDate" />
+      <item itemvalue="Application.DemoMethod" />
+      <item itemvalue="Application.DemoScanner" />
+      <item itemvalue="Application.RandomDate" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Assignment2" />
-        <item itemvalue="Application.DemoDate" />
         <item itemvalue="Application.DemoMethod" />
+        <item itemvalue="Application.DemoDate" />
         <item itemvalue="Application.DemoScanner" />
         <item itemvalue="Application.RandomDate" />
       </list>
@@ -156,11 +158,30 @@
       <workItem from="1677161401438" duration="756000" />
       <workItem from="1677239891950" duration="9430000" />
       <workItem from="1677398489699" duration="5298000" />
-      <workItem from="1677414956790" duration="341000" />
+      <workItem from="1677414956790" duration="13957000" />
+      <workItem from="1677499008789" duration="10164000" />
+      <workItem from="1677542757309" duration="773000" />
+      <workItem from="1677596529927" duration="2137000" />
+      <workItem from="1677598706580" duration="127000" />
+      <workItem from="1677598861139" duration="1347000" />
+      <workItem from="1677600243338" duration="394000" />
+      <workItem from="1677600662192" duration="207000" />
+      <workItem from="1677600892835" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson2/TestingSystem2/TestingSystem2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
