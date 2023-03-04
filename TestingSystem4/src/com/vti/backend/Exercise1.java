@@ -1,4 +1,4 @@
-package com.vti.frontend;
+package com.vti.backend;
 
 import com.vti.entity.Account;
 import com.vti.entity.Department;
@@ -8,13 +8,10 @@ import com.vti.entity.Position;
 import java.time.LocalDate;
 
 public class Exercise1 {
-    public static void main(String[] args) {
-        question1();
-        question2();
-    }
     public static void question1(){
         Department department1 = new Department();
         Department department2 = new Department("Sale");
+        System.out.println(department1);
     }
     public static void question2(){
         Account account1 = new Account();
