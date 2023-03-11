@@ -12,9 +12,6 @@ import java.util.Scanner;
 public class Program3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] test = Scannerutils.inputMinMax(5,1);
-        System.out.println("min="+test[0]);
-        System.out.println("max="+test[1]);
         List<CanBo> canBoList = new ArrayList<>();
         QLCB qlcb = new QLCB();
         while (true) {

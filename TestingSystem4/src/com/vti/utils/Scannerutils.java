@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Scannerutils {
     static Scanner scanner = new Scanner(System.in);
-    // Tạo một method để nhập vào một chuỗi bất kỳ
+    // Tạo 1 method để nhập vào một chuỗi bất kỳ
     public static String inputString(){
-        return scanner.nextLine();
+        String string = scanner.nextLine();
+        return string;
     }
     // Tạo một method để nhập vào một số nguyên dương
     public static int inputNumber(){
@@ -29,14 +30,13 @@ public class Scannerutils {
         return email;
     }
     // 3. Tạo 1 method nhập vào 1 số min và max do người dùng truyền vào
-    public static int[] inputMinMax(int a, int b) {
-        int temp =0;
-        if (a>b){
-            temp=a;
-            a=b;
-            b=temp;
+    public static int inputMinMax(int min, int max) {
+        int a = scanner.nextInt();
+        while (a<min || a>max){
+            System.out.println("Mời bạn nhập lại");
+            a = scanner.nextInt();
         }
-        return new int[]{a,b};
+        return a;
     }
     // 4. Tạo method nhập vào chuỗi là password, chứa 6-12 ký tự
     public static String inputPasswword(){

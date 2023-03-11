@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestingSystem5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,19 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Program2" />
       <item itemvalue="Application.Program4" />
@@ -122,6 +109,10 @@
       <workItem from="1678152325008" duration="279000" />
       <workItem from="1678171173379" duration="7446000" />
       <workItem from="1678182664258" duration="5872000" />
+      <workItem from="1678241996761" duration="2313000" />
+      <workItem from="1678258284572" duration="201000" />
+      <workItem from="1678277009128" duration="3647000" />
+      <workItem from="1678369784024" duration="18000" />
     </task>
     <servers />
   </component>
