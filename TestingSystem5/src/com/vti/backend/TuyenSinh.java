@@ -1,4 +1,4 @@
-package com.vti.frontend;
+package com.vti.backend;
 
 import com.vti.entity.ITuyenSinh;
 import com.vti.entity.KhoiThi;
@@ -21,8 +21,10 @@ public class TuyenSinh implements ITuyenSinh {
         String address = Scannerutils.inputString();
         System.out.println("Khu vực ưu tiên: ");
         int priorityLevel = Scannerutils.inputNumber();
-        String khoiThi = Scannerutils.inputString();
-        Student student = new Student(studentCode,fullName,address,priorityLevel, new KhoiThi(khoiThi));
+        System.out.println("Khối thi: ");
+        String khoiThiName = Scannerutils.inputString();
+        KhoiThi khoiThi1 = new KhoiThi(khoiThiName);
+        Student student = new Student(studentCode,fullName,address,priorityLevel, new KhoiThi(khoiThiName,khoiThi1.getSubject()));
         studentList.add(student);
     }
     @Override
@@ -35,10 +37,11 @@ public class TuyenSinh implements ITuyenSinh {
     public Student searchStudent(String studentCode) {
         Student student = new Student();
         for (Student student1 : studentList){
-            if (studentCode == student1.getStudentCode()){
+            if (studentCode.equals(student1.getStudentCode())){
                 student = student1;
             }
         }
+        System.out.println(student);
         return student;
     }
 }
