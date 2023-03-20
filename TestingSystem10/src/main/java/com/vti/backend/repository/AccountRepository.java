@@ -1,4 +1,4 @@
-package com.vti.backend;
+package com.vti.backend.repository;
 
 import com.vti.entity.Account;
 import com.vti.utils.JdbcUtils;
@@ -7,33 +7,33 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Example {
-    public void createAccount(String username, String email, String password){
-        // Tạo một câu query tương ứng với chức năng sử dung
-        String sql = "INSERT INTO jdbc.Account (full_name, email, password) VALUES(?, ?, ?)";
-        // Kết nối với DB để tạo 1 phiên làm việc
-        Connection connection = JdbcUtils.getConnection();
-        // Tạo statement tương ứng với câu query (có biến truyền vào: PreparedStatement;
-        // không có biến truyền vào: Statement
-        try {
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1,username);
-            preparedStatement.setString(2,email);
-            preparedStatement.setString(3,password);
-            // Execute câu query và lấy kết quả (result)
-            int resultSet = preparedStatement.executeUpdate();
-            // Kiểm tra sự thành công và thông báo
-            if (resultSet == 0) {
-                System.out.println("Thêm mới thất bại");
-            } else {
-                System.out.println("Thêm mới thành công");
+public class AccountRepository {
+        public void createAccount(String username, String email, String password){
+            // Tạo một câu query tương ứng với chức năng sử dung
+            String sql = "INSERT INTO jdbc.Account (full_name, email, password) VALUES(?, ?, ?)";
+            // Kết nối với DB để tạo 1 phiên làm việc
+            Connection connection = JdbcUtils.getConnection();
+            // Tạo statement tương ứng với câu query (có biến truyền vào: PreparedStatement;
+            // không có biến truyền vào: Statement
+            try {
+                PreparedStatement preparedStatement = connection.prepareStatement(sql);
+                preparedStatement.setString(1,username);
+                preparedStatement.setString(2,email);
+                preparedStatement.setString(3,password);
+                // Execute câu query và lấy kết quả (result)
+                int resultSet = preparedStatement.executeUpdate();
+                // Kiểm tra sự thành công và thông báo
+                if (resultSet == 0) {
+                    System.out.println("Thêm mới thất bại");
+                } else {
+                    System.out.println("Thêm mới thành công");
+                }
+            } catch (SQLException e) {
+                System.err.println(e.getMessage());;
+            } finally {
+                JdbcUtils.closeConnection();
             }
-        } catch (SQLException e) {
-            System.err.println(e.getMessage());;
-        } finally {
-            JdbcUtils.closeConnection();
         }
-    }
 
     public void updateAccount(int accountId, String oldPassword, String newPassword){
         String sql = "UPDATE Jdbc.Account SET password = ? WHERE account_id = ? AND password = ?";

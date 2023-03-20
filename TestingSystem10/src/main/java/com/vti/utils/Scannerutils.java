@@ -10,10 +10,18 @@ public class Scannerutils {
     }
     // Tạo một method để nhập vào một số nguyên dương
     public static int inputNumber(){
-        int number = Integer.parseInt(scanner.nextLine());
-        while (number<=0){
-            System.out.println("Mời bạn nhập lại");
-            number = Integer.parseInt(scanner.nextLine());
+        int number = 0;
+        while (true) {
+            try {
+                number = Integer.parseInt(scanner.nextLine());
+                if (number <= 0) {
+                    System.out.println("Số phải lớn hơn 0");
+                    continue;
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.err.println("Mời nhập lại");
+            }
         }
         return number;
     }
@@ -30,10 +38,18 @@ public class Scannerutils {
     }
     // 3. Tạo 1 method nhập vào 1 số min và max do người dùng truyền vào
     public static int inputNumber(int min, int max){
-        int number = Integer.parseInt(scanner.nextLine());
-        while (number< min || number > max){
-            System.out.println("Số ko đúng định dạng, mời bạn nhập lại");
-            number = Integer.parseInt(scanner.nextLine());
+        int number = 0;
+        while (true){
+            try {
+                number = Integer.parseInt(scanner.nextLine());
+                if (number< min || number > max){
+                    System.out.println("Số ko đúng định dạng, mời bạn nhập lại");
+                    continue;
+                }
+                break;
+            } catch(NumberFormatException ex){
+                System.err.println("Nhập vào phải là số, mời nhập lại!");
+            }
         }
         return number;
     }
