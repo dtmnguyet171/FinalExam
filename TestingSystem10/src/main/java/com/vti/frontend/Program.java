@@ -1,11 +1,12 @@
 package com.vti.frontend;
 
-import com.vti.backend.Example;
+import com.vti.backend.controller.UserController;
 import com.vti.utils.Scannerutils;
 
 public class Program {
     public static void main(String[] args) {
         Function function = new Function();
+        UserController controller = new UserController();
 
         while (true){
             System.out.println("----".repeat(20));

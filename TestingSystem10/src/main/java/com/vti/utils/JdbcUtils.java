@@ -15,7 +15,7 @@ public class JdbcUtils {
     public static Connection getConnection(){
         try {
             Properties properties = new Properties();
-            properties.load(new FileInputStream("src/main/resources/db.properties"));
+            properties.load(new FileInputStream("src/main/resources/db1.properties"));
 
             String username = properties.getProperty("user");
             String password = properties.getProperty("password");

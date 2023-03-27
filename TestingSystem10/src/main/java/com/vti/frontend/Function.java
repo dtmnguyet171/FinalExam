@@ -1,11 +1,9 @@
 package com.vti.frontend;
 
-import com.vti.backend.Example;
 import com.vti.backend.controller.AccountController;
 import com.vti.entity.Account;
 import com.vti.utils.Scannerutils;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 

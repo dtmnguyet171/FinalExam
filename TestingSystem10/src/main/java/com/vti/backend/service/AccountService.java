@@ -24,7 +24,6 @@ public class AccountService implements IAccountService{
 
     @Override
     public List<Account> findByEmail(String email) {
-        repository.findByEmail(email);
         return repository.findByEmail(email);
     }
 

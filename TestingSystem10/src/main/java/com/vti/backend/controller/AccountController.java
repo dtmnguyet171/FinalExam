@@ -17,7 +17,6 @@ public class AccountController {
         service.deleteAccount(accountId);
     }
     public List<Account> findByEmail(String email) {
-        service.findByEmail(email);
         return service.findByEmail(email);
     }
     public List<Account> getAllAccount() {
