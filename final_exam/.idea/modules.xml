@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FinalExam2/FinalExam2.iml" filepath="$PROJECT_DIR$/../FinalExam2/FinalExam2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestingSystem8-9/TestingSystem8-9.iml" filepath="$PROJECT_DIR$/../TestingSystem8-9/TestingSystem8-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestingSystem8_9/TestingSystem8_9.iml" filepath="$PROJECT_DIR$/../TestingSystem8_9/TestingSystem8_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/final_exam.iml" filepath="$PROJECT_DIR$/final_exam.iml" />
+    </modules>
+  </component>
+</project>

@@ -17,7 +17,7 @@ create table `User`
     email         varchar(30)            not null unique,
     date_of_birth date,
     department_id int,
-    foreign key (department_id) REFERENCES Department(department_id)
+    foreign key (department_id) REFERENCES Department(department_id) on delete set null on update cascade
 );
 
 INSERT INTO `assignment10`.`Department` (`department_name`) VALUES ('java');

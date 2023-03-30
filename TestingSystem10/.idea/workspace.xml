@@ -52,6 +52,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java-core\final_exam_DoThiMinhNguyet\final_exam_DoThiMinhNguyet\src\main\java\com\vti\utils" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Program1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.vti.frontend.Program1" />
@@ -89,7 +94,12 @@
       <workItem from="1679640921064" duration="1719000" />
       <workItem from="1679659492906" duration="8678000" />
       <workItem from="1679750847663" duration="1251000" />
-      <workItem from="1679900363764" duration="3927000" />
+      <workItem from="1679900363764" duration="4017000" />
+      <workItem from="1679917807976" duration="4898000" />
+      <workItem from="1680060707867" duration="21000" />
+      <workItem from="1680060744503" duration="239000" />
+      <workItem from="1680061062302" duration="12000" />
+      <workItem from="1680081009782" duration="21000" />
     </task>
     <servers />
   </component>

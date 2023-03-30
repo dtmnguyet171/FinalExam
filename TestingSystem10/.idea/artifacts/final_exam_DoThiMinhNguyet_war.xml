@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="final_exam_DoThiMinhNguyet:war">
+    <output-path>$PROJECT_DIR$/../final_exam_DoThiMinhNguyet/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>final_exam_DoThiMinhNguyet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="final_exam_DoThiMinhNguyet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="final_exam_DoThiMinhNguyet:war exploded" />
+    </root>
+  </artifact>
+</component>

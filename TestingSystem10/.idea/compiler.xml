@@ -11,12 +11,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="final_exam_DoThiMinhNguyet" target="1.7" />
       <module name="TestingSystem10" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="TestingSystem10" options="--add-exports jdk.compiler/com.sun.tools.doclint=ALL-UNNAMED" />
+      <module name="TestingSystem10" options="" />
     </option>
   </component>
 </project>

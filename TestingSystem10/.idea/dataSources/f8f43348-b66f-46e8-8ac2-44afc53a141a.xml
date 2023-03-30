@@ -1125,7 +1125,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="322" parent="307" name="department_id">
+    <index id="322" parent="307" name="user_ibfk_1">
       <ColNames>department_id</ColNames>
       <Type>btree</Type>
     </index>
@@ -1146,6 +1146,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <ColNames>department_id</ColNames>
       <RefTableName>department</RefTableName>
       <RefColNames>department_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>set-null</OnDelete>
     </foreign-key>
   </database-model>
 </dataSource>
